@@ -1,0 +1,12 @@
+# F3RVA WordPress Theme Screenshot
+
+This file serves as a placeholder for the theme screenshot. In a real WordPress theme, this would be a 1200x900 pixel PNG image named `screenshot.png` that shows a preview of the theme.
+
+The theme features:
+- Clean, minimalist design
+- Focus on typography and readability
+- Post-centric layout optimized for blogs
+- Responsive design for all devices
+- Modern WordPress block editor support
+
+For actual usage, replace this file with a proper screenshot.png image showcasing the theme's appearance.
