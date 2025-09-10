@@ -518,3 +518,94 @@ a:hover {
     border-radius: 3px;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
 }
+
+/* --- F3RVA custom front-page and tweaks --- */
+.site-hero {
+    padding: 4rem 0;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(1,36,64,0.03), rgba(0,0,0,0));
+    margin-bottom: 2.5rem;
+}
+
+.site-hero .hero-title {
+    font-size: 2.75rem;
+    line-height: 1.05;
+    margin-bottom: 0.5rem;
+    color: #0b3b57;
+}
+
+.site-hero .hero-subtitle {
+    color: #334e5e;
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
+}
+
+.hero-cta {
+    display: inline-flex;
+    gap: 0.75rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.65rem 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid transparent;
+}
+
+.btn-primary {
+    background-color: #0b6fa4;
+    color: #fff;
+}
+
+.btn-outline {
+    background: transparent;
+    color: #0b6fa4;
+    border-color: #0b6fa4;
+}
+
+/* Header tweaks to match the source site */
+.site-branding {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.site-branding img {
+    max-height: 56px;
+    width: auto;
+    display: block;
+}
+
+.main-navigation ul {
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.main-navigation a {
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+}
+
+/* Post list cards */
+.post-item {
+    background: #fff;
+    border: 1px solid #eef3f5;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 0 rgba(15, 23, 26, 0.02);
+}
+
+.post-item + .post-item {
+    margin-top: 1rem;
+}
+
+.entry-title {
+    font-size: 1.375rem;
+}
+
+@media (min-width: 992px) {
+    .site-hero .hero-title { font-size: 3.5rem; }
+}
