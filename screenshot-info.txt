@@ -1,0 +1,15 @@
+# Screenshot Placeholder
+
+This directory should contain a screenshot.png file (1200x900 pixels) 
+showing a preview of the theme. The screenshot will be displayed in the 
+WordPress admin when selecting themes.
+
+For the F3 RVA theme, the screenshot should show:
+- Clean, modern layout
+- Header with site title and navigation
+- Main content area with sample post
+- Sidebar with widgets
+- Footer with copyright information
+
+The screenshot should be saved as screenshot.png and placed in the root 
+of the theme directory.
